@@ -14,6 +14,10 @@
   padding-left: 74px;
 }
 
+.link {
+  color: #111517;
+}
+
 .back-link {
   display: inline-flex;
   align-items: center;
