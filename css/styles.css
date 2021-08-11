@@ -1,0 +1,34 @@
+.search-form__input-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.search-form__search-icon {
+  position: absolute;
+  z-index: 1;
+  left: 32px;
+  top: calc(50% - 8px);
+}
+
+.search-form__input {
+  padding-left: 74px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #111517;
+}
+
+.back-link::before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../img/back.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-right: 10px;
+}
